@@ -17,7 +17,7 @@ const PasswordPannel = ({ isAllowed, setIsAllowed }) => {
 
   return(
     <div style={{...styles.screen, display: isAllowed ? 'none' : 'flex'}}>
-      <div style={{position: 'absolute', top: 0, width: '100%', padding: 15, color: 'rgba(1, 1, 1, 1)', textAlign: 'center', fontSize: 14, backgroundColor: 'rgba( 255, 255, 255, 0.85)'}}>
+      <div style={{position: 'absolute', top: 0, width: '100%', padding: 15, color: 'rgba(1, 1, 1, 1)', textAlign: 'center', fontSize: 14, backgroundColor: 'rgba( 255, 255, 255, 0.8)'}}>
         <b>http://{ IP }/screens/<span style={{color: '#d11d1d'}}>[numéro de l'écran]</span></b>
       </div>
       <div style={styles.centered}>

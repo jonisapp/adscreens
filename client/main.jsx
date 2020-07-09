@@ -11,7 +11,7 @@ const App = () => {
   return(
     <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={Interface} />
+        <Route exact path='/adscreens/interface' component={Interface} />
         <Route exact path='/screens/:screenIndex' component={TvScreen} />
       </Switch>
       

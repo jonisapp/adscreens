@@ -26,7 +26,7 @@ const App = ({ imagesData, tvData }) => {
   const { backgroundStretch, fillScreen, backgroundSizePercent, backgroundPosition, backgroundSize } = selectedTvData;
   const isDefault = !backgroundStretch && backgroundSizePercent === 100 && backgroundPosition === '50% 50%' && !fillScreen;
 
-  console.log(selectedTvData);
+  console.log(tvData);
 
   useEffect(() => {
     window.addEventListener("drop",function(e){
