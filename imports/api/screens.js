@@ -1,0 +1,1 @@
+export default Screens = new Mongo.Collection('screens');
